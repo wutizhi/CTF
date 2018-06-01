@@ -1,9 +1,9 @@
 
 ## c語言程式編譯組譯與與逆向
 - c語言程式編譯組譯
-
-#include <stdio.h>
 ```
+#include <stdio.h>
+
 int x=5;
 
 int main()
