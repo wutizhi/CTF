@@ -51,4 +51,12 @@ gcc –c XXX.s –o XXX.o
 
 ```
 ![image](https://github.com/wutizhi/CTF/blob/master/photo/Screenshot%20from%202018-06-01%2009-13-27.png)
+- 步驟4:連結階段
+```
+gcc XXX.o -o XXX
+```
+產生可執行檔
+```
+strings XXX
+```
 ![image](https://github.com/wutizhi/CTF/blob/master/photo/Screenshot%20from%202018-06-01%2009-14-18.png)
