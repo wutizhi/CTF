@@ -18,11 +18,13 @@ int main()
 gcc –E XXX.c –o XXX.i 
 ```
 查看.i的架構==>hello.i 
+https://github.com/wutizhi/CTF/blob/master/Myfristsecurity/hello.i
 - 步驟2:編譯階段:產生組語
 ```
 gcc –S XXX.i  –o XXX.s
 ```
 查看.s的架構==>hello.s 
+https://github.com/wutizhi/CTF/blob/master/Myfristsecurity/hello.s
 
 ![image](https://github.com/wutizhi/CTF/blob/master/photo/Screenshot%20from%202018-06-01%2009-12-07.png)
 ![image](https://github.com/wutizhi/CTF/blob/master/photo/Screenshot%20from%202018-06-01%2009-12-26.png)
